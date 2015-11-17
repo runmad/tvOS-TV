@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		90B5C82E1BFB620200BD3DCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5C82D1BFB620200BD3DCF /* AppDelegate.swift */; };
-		90B5C8301BFB620200BD3DCF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5C82F1BFB620200BD3DCF /* FirstViewController.swift */; };
-		90B5C8321BFB620200BD3DCF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5C8311BFB620200BD3DCF /* SecondViewController.swift */; };
+		90B5C8301BFB620200BD3DCF /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5C82F1BFB620200BD3DCF /* ChannelsViewController.swift */; };
 		90B5C8351BFB620200BD3DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B5C8331BFB620200BD3DCF /* Main.storyboard */; };
 		90B5C8371BFB620200BD3DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B5C8361BFB620200BD3DCF /* Assets.xcassets */; };
 		90B5C8421BFB620200BD3DCF /* TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5C8411BFB620200BD3DCF /* TVTests.swift */; };
+		90B5C84D1BFB631D00BD3DCF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5C84C1BFB631D00BD3DCF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +28,14 @@
 /* Begin PBXFileReference section */
 		90B5C82A1BFB620200BD3DCF /* TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B5C82D1BFB620200BD3DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90B5C82F1BFB620200BD3DCF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		90B5C8311BFB620200BD3DCF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		90B5C82F1BFB620200BD3DCF /* ChannelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
 		90B5C8341BFB620200BD3DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90B5C8361BFB620200BD3DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90B5C8381BFB620200BD3DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90B5C83D1BFB620200BD3DCF /* TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B5C8411BFB620200BD3DCF /* TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTests.swift; sourceTree = "<group>"; };
 		90B5C8431BFB620200BD3DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B5C84C1BFB631D00BD3DCF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				90B5C82D1BFB620200BD3DCF /* AppDelegate.swift */,
-				90B5C82F1BFB620200BD3DCF /* FirstViewController.swift */,
-				90B5C8311BFB620200BD3DCF /* SecondViewController.swift */,
+				90B5C82F1BFB620200BD3DCF /* ChannelsViewController.swift */,
 				90B5C8331BFB620200BD3DCF /* Main.storyboard */,
+				90B5C84C1BFB631D00BD3DCF /* SettingsViewController.swift */,
 				90B5C8361BFB620200BD3DCF /* Assets.xcassets */,
 				90B5C8381BFB620200BD3DCF /* Info.plist */,
 			);
@@ -196,9 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90B5C8321BFB620200BD3DCF /* SecondViewController.swift in Sources */,
 				90B5C82E1BFB620200BD3DCF /* AppDelegate.swift in Sources */,
-				90B5C8301BFB620200BD3DCF /* FirstViewController.swift in Sources */,
+				90B5C8301BFB620200BD3DCF /* ChannelsViewController.swift in Sources */,
+				90B5C84D1BFB631D00BD3DCF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +380,7 @@
 				90B5C8481BFB620200BD3DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90B5C8491BFB620200BD3DCF /* Build configuration list for PBXNativeTarget "TVTests" */ = {
 			isa = XCConfigurationList;
@@ -388,6 +389,7 @@
 				90B5C84B1BFB620200BD3DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
